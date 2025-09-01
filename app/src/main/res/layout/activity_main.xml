@@ -1,54 +1,90 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:gravity="center"
-    android:background="#FFFFFF"
-    tools:ignore="InvalidId">
+    android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/tvTitle"
+        android:id="@+id/textViewLeft1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="DATA DIRI"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        android:layout_marginBottom="20dp"
-        android:gravity="center"/>
+        android:text="Text"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp" />
 
     <TextView
-        android:id="@+id/tvNama"
+        android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Nama: Allya Tri Ananda"
-        android:textSize="18sp"
-        android:gravity="center"/>
+        android:text="Text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp" />
 
     <TextView
-        android:id="@+id/tvUmur"
+        android:id="@+id/textViewRight1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Umur: 20 Tahun"
-        android:textSize="18sp"
-        android:gravity="center"/>
+        android:text="Text"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="50dp" />
 
     <TextView
-        android:id="@+id/tvAlamat"
+        android:id="@+id/textViewLeft2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Alamat: Padang, Sumatera Barat"
-        android:textSize="18sp"
-        android:gravity="center"/>
+        android:text="Text"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/textViewLeft1"
+        android:layout_marginTop="30dp" />
 
     <TextView
-        android:id="@+id/tvHobi"
+        android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hobi: Makeup dan Desain"
-        android:textSize="18sp"
-        android:gravity="center"/>
+        android:text="Text"
+        android:layout_below="@id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp" />
 
-</LinearLayout>
+    <TextView
+        android:id="@+id/textViewRight2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Text"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:layout_below="@id/textViewRight1"
+        android:layout_marginTop="70dp" />
+
+    <TextView
+        android:id="@+id/textViewLeft3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Text"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/textViewLeft2"
+        android:layout_marginTop="70dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Text"
+        android:layout_below="@id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp" />
+
+    <TextView
+        android:id="@+id/textViewRight3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Text"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:layout_below="@id/textViewRight2"
+        android:layout_marginTop="70dp" />
+
+</RelativeLayout>
